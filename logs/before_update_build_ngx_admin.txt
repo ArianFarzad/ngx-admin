@@ -1,0 +1,52 @@
+
+> ngx-admin@11.0.0 build /app
+> ng build
+
+One or more browsers which are configured in the project's Browserslist configuration will be ignored as ES5 output is not supported by the Angular CLI.
+Ignored browsers: ie 11, kaios 2.5, op_mini all
+- Generating browser application bundles (phase: setup)...
+Processing legacy "View Engine" libraries:
+- ng2-completer [es2015/esm2015] (git+https://github.com/oferh/ng2-completer.git)
+- ngx-echarts [es2015/esm2015] (git+https://github.com/xieziyu/ngx-echarts.git)
+- @swimlane/ngx-charts [es2015/esm2015] (git+https://github.com/swimlane/ngx-charts.git)
+- angular2-chartjs [main/commonjs] (git+https://github.com/emn178/angular2-chartjs.git)
+- @asymmetrik/ngx-leaflet [module/esm5] (git+https://github.com/Asymmetrik/ngx-leaflet.git)
+- @angular/google-maps [es2015/esm2015] (git+https://github.com/angular/components.git)
+- ng2-ckeditor [es2015/esm2015] (git+https://github.com/chymz/ng2-ckeditor.git)
+- ng2-smart-table [es2015/esm2015] ()
+Encourage the library authors to publish an Ivy distribution.
+✔ Browser application bundle generation complete.
+✔ Browser application bundle generation complete.
+- Copying assets...
+✔ Copying assets complete.
+- Generating index html...
+✔ Index html generation complete.
+
+Initial Chunk Files                                          | Names                                    |  Raw Size
+vendor.js                                                    | vendor                                   |   5.05 MB |
+main.js                                                      | main                                     |   1.67 MB |
+styles.css                                                   | styles                                   |   1.66 MB |
+scripts.js                                                   | scripts                                  |   1.38 MB |
+polyfills.js                                                 | polyfills                                | 271.39 kB |
+runtime.js                                                   | runtime                                  |  12.82 kB |
+
+| Initial Total                            |  10.05 MB
+
+Lazy Chunk Files                                             | Names                                    |  Raw Size
+src_app_pages_pages_module_ts.js                             | pages-pages-module                       |  19.65 MB |
+src_app_pages_extra-components_extra-components_module_ts.js | extra-components-extra-components-module |   3.61 MB |
+src_app_pages_modal-overlays_modal-overlays_module_ts.js     | modal-overlays-modal-overlays-module     |   2.37 MB |
+src_app_pages_tables_tables_module_ts.js                     | tables-tables-module                     |   1.49 MB |
+src_app_pages_maps_maps_module_ts.js                         | maps-maps-module                         |   1.38 MB |
+src_app_pages_charts_charts_module_ts.js                     | charts-charts-module                     | 994.79 kB |
+src_app_pages_layout_layout_module_ts.js                     | layout-layout-module                     | 969.24 kB |
+src_app_pages_ui-features_ui-features_module_ts.js           | ui-features-ui-features-module           | 967.73 kB |
+src_app_pages_editors_editors_module_ts.js                   | editors-editors-module                   | 838.26 kB |
+src_app_pages_forms_forms_module_ts.js                       | forms-forms-module                       | 648.25 kB |
+
+Build at: 2026-03-22T16:46:53.832Z - Hash: edc997c5fc15f1c4 - Time: 65596ms
+
+Warning: /app/node_modules/@nebular/eva-icons/fesm2020/nebular-eva-icons.mjs depends on 'eva-icons'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+

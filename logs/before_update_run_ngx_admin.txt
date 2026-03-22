@@ -1,0 +1,69 @@
+npx: installed 48 in 3.468s
+Starting up http-server, serving dist
+
+http-server version: 14.1.1
+
+http-server settings: 
+CORS: disabled
+Cache: 3600 seconds
+Connection Timeout: 120 seconds
+Directory Listings: visible
+AutoIndex: visible
+Serve GZIP Files: false
+Serve Brotli Files: false
+Default File Extension: none
+
+Available on:
+  http://127.0.0.1:4200
+  http://172.17.0.2:4200
+Hit CTRL-C to stop the server
+
+[2026-03-22T16:49:03.602Z]  "GET /assets/audios/boo.mp3" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+(node:179) [DEP0066] DeprecationWarning: OutgoingMessage.prototype._headers is deprecated
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2026-03-22T16:49:03.605Z]  "GET /assets/audios/ding-deng.mp3" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2026-03-22T16:49:03.606Z]  "GET /assets/audios/ring.mp3" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2026-03-22T16:49:03.607Z]  "GET /assets/audios/boo.mp3" Error (404): "Not found"
+[2026-03-22T16:49:03.609Z]  "GET /assets/audios/ding-deng.mp3" Error (404): "Not found"
+[2026-03-22T16:49:03.610Z]  "GET /assets/audios/ring.mp3" Error (404): "Not found"
+[2026-03-22T16:49:03.611Z]  "GET /onchat/auth/info" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2026-03-22T16:49:03.612Z]  "GET /onchat/auth/info" Error (404): "Not found"
+[2026-03-22T16:49:03.615Z]  "GET /assets/audios/ding-deng.mp3" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2026-03-22T16:49:03.616Z]  "GET /assets/audios/boo.mp3" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2026-03-22T16:49:03.617Z]  "GET /assets/audios/ring.mp3" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2026-03-22T16:49:03.617Z]  "GET /assets/audios/ding-deng.mp3" Error (404): "Not found"
+[2026-03-22T16:49:03.618Z]  "GET /assets/audios/boo.mp3" Error (404): "Not found"
+[2026-03-22T16:49:03.618Z]  "GET /assets/audios/ring.mp3" Error (404): "Not found"
+[2026-03-22T16:49:05.351Z]  "GET /ngsw-worker.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2026-03-22T16:49:05.352Z]  "GET /ngsw-worker.js" Error (404): "Not found"
+[2026-03-22T16:49:05.960Z]  "GET /home/session" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2026-03-22T16:49:05.961Z]  "GET /home/session" Error (404): "Not found"
+[2026-03-22T16:49:05.964Z]  "GET /home/session" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2026-03-22T16:49:05.965Z]  "GET /home/session" Error (404): "Not found"
+[2026-03-22T16:49:05.967Z]  "GET /home/session" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2026-03-22T16:49:05.968Z]  "GET /home/session" Error (404): "Not found"
+[2026-03-22T16:49:06.990Z]  "GET /ngsw-worker.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2026-03-22T16:49:06.991Z]  "GET /ngsw-worker.js" Error (404): "Not found"
+[2026-03-22T16:49:10.249Z]  "GET /" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2026-03-22T16:49:10.267Z]  "GET /vendor.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2026-03-22T16:49:10.268Z]  "GET /styles.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2026-03-22T16:49:10.283Z]  "GET /main.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2026-03-22T16:49:10.284Z]  "GET /runtime.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2026-03-22T16:49:10.284Z]  "GET /polyfills.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2026-03-22T16:49:10.292Z]  "GET /scripts.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2026-03-22T16:49:10.549Z]  "GET /src_app_pages_pages_module_ts.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2026-03-22T16:49:10.808Z]  "GET /ionicons.ttf?v=2.0.1" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2026-03-22T16:49:10.840Z]  "GET /assets/leaflet-countries/countries.geo.json" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2026-03-22T16:49:10.931Z]  "GET /assets/images/nick.png" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2026-03-22T16:49:11.244Z]  "GET /favicon.ico" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2026-03-22T16:49:11.311Z]  "GET /favicon.png" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2026-03-22T16:49:13.124Z]  "GET /ngsw-worker.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2026-03-22T16:49:13.125Z]  "GET /ngsw-worker.js" Error (404): "Not found"
+[2026-03-22T16:49:20.465Z]  "GET /ngsw.json?ngsw-cache-bust=0.22471889996216454" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2026-03-22T16:49:20.466Z]  "GET /ngsw.json?ngsw-cache-bust=0.22471889996216454" Error (404): "Not found"
+[2026-03-22T16:49:20.509Z]  "GET /ngsw.json?ngsw-cache-bust=0.41615817199432625" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2026-03-22T16:49:20.510Z]  "GET /ngsw.json?ngsw-cache-bust=0.41615817199432625" Error (404): "Not found"
+[2026-03-22T16:52:09.678Z]  "GET /ngsw.json?ngsw-cache-bust=0.24962057230300905" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2026-03-22T16:52:09.679Z]  "GET /ngsw.json?ngsw-cache-bust=0.24962057230300905" Error (404): "Not found"
+[2026-03-22T16:52:09.687Z]  "GET /src_app_pages_maps_maps_module_ts.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+http-server stopped.

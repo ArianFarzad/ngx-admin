@@ -1,0 +1,241 @@
+Executable doesn't exist, trying to download.
+2026-03-22T16:57:32.016Z: Starting download
+2026-03-22T16:57:32.017Z: Downloading from 'https://downloads.snyk.io/cli/v1.1303.1/snyk-linux?utm_source=TS_BINARY_WRAPPER' to '/usr/local/lib/node_modules/snyk/wrapper_dist/snyk-linux'
+2026-03-22T16:57:46.217Z: Shasums:
+- actual:   ec9708245d1bb8ccae43ffd7d5f11e8484f8155a90d531ce4f5bdca510dbdbe1
+- expected: ec9708245d1bb8ccae43ffd7d5f11e8484f8155a90d531ce4f5bdca510dbdbe1
+2026-03-22T16:57:46.218Z: Downloaded successfull! 
+
+Testing /app...
+
+Tested 268 dependencies for known issues, found 74 issues, 127 vulnerable paths.
+
+
+Issues to fix by upgrading:
+
+  Upgrade @angular/common@15.2.10 to @angular/common@19.2.16 to fix
+  ✗ Insertion of Sensitive Information Into Sent Data [High Severity][https://security.snyk.io/vuln/SNYK-JS-ANGULARCOMMON-14135651] in @angular/common@15.2.10
+    introduced by @angular/common@15.2.10
+
+  Upgrade @angular/compiler@15.2.10 to @angular/compiler@19.2.20 to fix
+  ✗ Cross-site Scripting (XSS) (new) [Low Severity][https://security.snyk.io/vuln/SNYK-JS-ANGULARCOMPILER-15610286] in @angular/compiler@15.2.10
+    introduced by @angular/compiler@15.2.10
+  ✗ Cross-site Scripting (XSS) [Low Severity][https://security.snyk.io/vuln/SNYK-JS-ANGULARCOMPILER-14908872] in @angular/compiler@15.2.10
+    introduced by @angular/compiler@15.2.10
+  ✗ Cross-site Scripting (XSS) [High Severity][https://security.snyk.io/vuln/SNYK-JS-ANGULARCOMPILER-14157154] in @angular/compiler@15.2.10
+    introduced by @angular/compiler@15.2.10
+
+  Upgrade @angular/core@15.2.10 to @angular/core@19.2.20 to fix
+  ✗ Cross-site Scripting (XSS) (new) [Low Severity][https://security.snyk.io/vuln/SNYK-JS-ANGULARCORE-15610287] in @angular/core@15.2.10
+    introduced by @angular/core@15.2.10
+  ✗ Cross-site Scripting (XSS) [Low Severity][https://security.snyk.io/vuln/SNYK-JS-ANGULARCORE-14908871] in @angular/core@15.2.10
+    introduced by @angular/core@15.2.10
+  ✗ Cross-site Scripting (XSS) (new) [High Severity][https://security.snyk.io/vuln/SNYK-JS-ANGULARCORE-15353393] in @angular/core@15.2.10
+    introduced by @angular/core@15.2.10
+
+  Upgrade @swimlane/ngx-charts@14.0.0 to @swimlane/ngx-charts@20.4.1 to fix
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-D3COLOR-1076592] in d3-color@1.4.1
+    introduced by @swimlane/ngx-charts@14.0.0 > d3-color@1.4.1 and 7 other path(s)
+
+  Upgrade chart.js@2.7.1 to chart.js@2.9.4 to fix
+  ✗ Regular Expression Denial of Service (ReDoS) [Low Severity][https://security.snyk.io/vuln/npm:moment:20170905] in moment@2.18.1
+    introduced by chart.js@2.7.1 > moment@2.18.1 and 1 other path(s)
+  ✗ Prototype Pollution [High Severity][https://security.snyk.io/vuln/SNYK-JS-CHARTJS-1018716] in chart.js@2.7.1
+    introduced by chart.js@2.7.1 and 1 other path(s)
+  ✗ Directory Traversal [High Severity][https://security.snyk.io/vuln/SNYK-JS-MOMENT-2440688] in moment@2.18.1
+    introduced by chart.js@2.7.1 > moment@2.18.1 and 1 other path(s)
+  ✗ Regular Expression Denial of Service (ReDoS) [High Severity][https://security.snyk.io/vuln/SNYK-JS-MOMENT-2944238] in moment@2.18.1
+    introduced by chart.js@2.7.1 > moment@2.18.1 and 1 other path(s)
+
+  Upgrade ckeditor@4.7.3 to ckeditor@4.12.1 to fix
+  ✗ Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-CKEDITOR-72618] in ckeditor@4.7.3
+    introduced by ckeditor@4.7.3
+
+  Upgrade echarts@4.9.0 to echarts@5.5.1 to fix
+  ✗ Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-ECHARTS-7300340] in echarts@4.9.0
+    introduced by echarts@4.9.0
+  ✗ Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-ZRENDER-1586253] in zrender@4.3.2
+    introduced by echarts@4.9.0 > zrender@4.3.2
+
+  Upgrade node-sass@4.14.1 to node-sass@9.0.0 to fix
+  ✗ Regular Expression Denial of Service (ReDoS) [Low Severity][https://security.snyk.io/vuln/SNYK-JS-BRACEEXPANSION-9789073] in brace-expansion@1.1.11
+    introduced by node-sass@4.14.1 > glob@7.2.0 > minimatch@3.0.8 > brace-expansion@1.1.11 and 8 other path(s)
+  ✗ Missing Release of Resource after Effective Lifetime [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-INFLIGHT-6095116] in inflight@1.0.6
+    introduced by node-sass@4.14.1 > glob@7.2.0 > inflight@1.0.6 and 7 other path(s)
+  ✗ Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-LODASH-15053838] in lodash@4.17.21
+    introduced by ng2-smart-table@1.7.2 > lodash@4.17.21 and 3 other path(s)
+  ✗ Improper Certificate Validation [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-NODESASS-1059081] in node-sass@4.14.1
+    introduced by node-sass@4.14.1
+  ✗ Server-side Request Forgery (SSRF) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-REQUEST-3361831] in request@2.88.2
+    introduced by node-sass@4.14.1 > request@2.88.2 and 1 other path(s)
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-SCSSTOKENIZER-2339884] in scss-tokenizer@0.2.3
+    introduced by node-sass@4.14.1 > sass-graph@2.2.5 > scss-tokenizer@0.2.3
+  ✗ Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-TOUGHCOOKIE-5672873] in tough-cookie@2.5.0
+    introduced by node-sass@4.14.1 > request@2.88.2 > tough-cookie@2.5.0 and 1 other path(s)
+  ✗ Regular Expression Denial of Service (ReDoS) [High Severity][https://security.snyk.io/vuln/SNYK-JS-AJV-15274295] in ajv@6.12.6
+    introduced by style-loader@1.3.0 > schema-utils@2.7.1 > ajv@6.12.6 and 2 other path(s)
+  ✗ Regular Expression Denial of Service (ReDoS) [High Severity][https://security.snyk.io/vuln/SNYK-JS-CROSSSPAWN-8303230] in cross-spawn@3.0.1
+    introduced by node-sass@4.14.1 > cross-spawn@3.0.1
+  ✗ Regular Expression Denial of Service (ReDoS) [High Severity][https://security.snyk.io/vuln/SNYK-JS-MINIMATCH-15309438] in minimatch@3.0.8
+    introduced by node-sass@4.14.1 > glob@7.2.0 > minimatch@3.0.8 and 8 other path(s)
+  ✗ Inefficient Algorithmic Complexity (new) [High Severity][https://security.snyk.io/vuln/SNYK-JS-MINIMATCH-15353389] in minimatch@3.0.8
+    introduced by node-sass@4.14.1 > glob@7.2.0 > minimatch@3.0.8 and 8 other path(s)
+  ✗ Allocation of Resources Without Limits or Throttling [High Severity][https://security.snyk.io/vuln/SNYK-JS-QS-14724253] in qs@6.5.3
+    introduced by node-sass@4.14.1 > request@2.88.2 > qs@6.5.3 and 1 other path(s)
+  ✗ Regular Expression Denial of Service (ReDoS) [High Severity][https://security.snyk.io/vuln/SNYK-JS-SEMVER-3247795] in semver@5.7.1
+    introduced by node-sass@4.14.1 > meow@3.7.0 > normalize-package-data@2.5.0 > semver@5.7.1 and 2 other path(s)
+  ✗ Denial of Service (DoS) [High Severity][https://security.snyk.io/vuln/SNYK-JS-TRIMNEWLINES-1298042] in trim-newlines@1.0.0
+    introduced by node-sass@4.14.1 > meow@3.7.0 > trim-newlines@1.0.0
+  ✗ Predictable Value Range from Previous Values [Critical Severity][https://security.snyk.io/vuln/SNYK-JS-FORMDATA-10841150] in form-data@2.3.3
+    introduced by node-sass@4.14.1 > request@2.88.2 > form-data@2.3.3 and 1 other path(s)
+
+  Upgrade tinymce@4.5.7 to tinymce@7.0.0 to fix
+  ✗ Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-TINYMCE-6501006] in tinymce@4.5.7
+    introduced by tinymce@4.5.7
+  ✗ Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-TINYMCE-6501605] in tinymce@4.5.7
+    introduced by tinymce@4.5.7
+  ✗ Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-TINYMCE-7278053] in tinymce@4.5.7
+    introduced by tinymce@4.5.7
+  ✗ Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-TINYMCE-7278059] in tinymce@4.5.7
+    introduced by tinymce@4.5.7
+  ✗ Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-TINYMCE-6062167] in tinymce@4.5.7
+    introduced by tinymce@4.5.7
+  ✗ Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-TINYMCE-6016276] in tinymce@4.5.7
+    introduced by tinymce@4.5.7
+  ✗ Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-TINYMCE-6016290] in tinymce@4.5.7
+    introduced by tinymce@4.5.7
+  ✗ Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-TINYMCE-3166281] in tinymce@4.5.7
+    introduced by tinymce@4.5.7
+  ✗ Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-TINYMCE-1910225] in tinymce@4.5.7
+    introduced by tinymce@4.5.7
+  ✗ Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-TINYMCE-1766967] in tinymce@4.5.7
+    introduced by tinymce@4.5.7
+  ✗ Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-TINYMCE-1298037] in tinymce@4.5.7
+    introduced by tinymce@4.5.7
+  ✗ Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-TINYMCE-1056408] in tinymce@4.5.7
+    introduced by tinymce@4.5.7
+  ✗ Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-TINYMCE-568922] in tinymce@4.5.7
+    introduced by tinymce@4.5.7
+  ✗ Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/npm:tinymce:20180522] in tinymce@4.5.7
+    introduced by tinymce@4.5.7
+  ✗ Cross-site Scripting (XSS) [High Severity][https://security.snyk.io/vuln/SNYK-JS-TINYMCE-543825] in tinymce@4.5.7
+    introduced by tinymce@4.5.7
+  ✗ Cross-site Scripting (XSS) [High Severity][https://security.snyk.io/vuln/npm:tinymce:20170613] in tinymce@4.5.7
+    introduced by tinymce@4.5.7
+  ✗ Cross-site Scripting (XSS) [Critical Severity][https://security.snyk.io/vuln/SNYK-JS-TINYMCE-598223] in tinymce@4.5.7
+    introduced by tinymce@4.5.7
+
+
+Patchable issues:
+
+  Patch available for moment@2.18.1
+  ✗ Regular Expression Denial of Service (ReDoS) [Low Severity][https://security.snyk.io/vuln/npm:moment:20170905] in moment@2.18.1
+    introduced by chart.js@2.7.1 > moment@2.18.1 and 1 other path(s)
+
+
+Issues with no direct upgrade or patch:
+  ✗ Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-JSON5-3182856] in json5@2.2.1
+    introduced by style-loader@1.3.0 > loader-utils@2.0.2 > json5@2.2.1
+  This issue was fixed in versions: 1.0.2, 2.2.2
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-LOADERUTILS-3042992] in loader-utils@2.0.2
+    introduced by style-loader@1.3.0 > loader-utils@2.0.2
+  This issue was fixed in versions: 1.4.2, 2.0.4, 3.2.1
+  ✗ Prototype Pollution [High Severity][https://security.snyk.io/vuln/SNYK-JS-LOADERUTILS-3043105] in loader-utils@2.0.2
+    introduced by style-loader@1.3.0 > loader-utils@2.0.2
+  This issue was fixed in versions: 1.4.1, 2.0.3
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-LOADERUTILS-3105943] in loader-utils@2.0.2
+    introduced by style-loader@1.3.0 > loader-utils@2.0.2
+  This issue was fixed in versions: 1.4.2, 2.0.4, 3.2.1
+  ✗ Out-of-Bounds [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-NODESASS-535498] in node-sass@4.14.1
+    introduced by node-sass@4.14.1
+  No upgrade or patch available
+  ✗ NULL Pointer Dereference [High Severity][https://security.snyk.io/vuln/SNYK-JS-NODESASS-535500] in node-sass@4.14.1
+    introduced by node-sass@4.14.1
+  No upgrade or patch available
+  ✗ Out-of-bounds Read [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-NODESASS-540958] in node-sass@4.14.1
+    introduced by node-sass@4.14.1
+  No upgrade or patch available
+  ✗ Uncontrolled Recursion [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-NODESASS-540964] in node-sass@4.14.1
+    introduced by node-sass@4.14.1
+  No upgrade or patch available
+  ✗ Denial of Service (DoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-NODESASS-540978] in node-sass@4.14.1
+    introduced by node-sass@4.14.1
+  No upgrade or patch available
+  ✗ NULL Pointer Dereference [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-NODESASS-540992] in node-sass@4.14.1
+    introduced by node-sass@4.14.1
+  No upgrade or patch available
+  ✗ Out-of-Bounds [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-NODESASS-540998] in node-sass@4.14.1
+    introduced by node-sass@4.14.1
+  No upgrade or patch available
+  ✗ Use After Free [High Severity][https://security.snyk.io/vuln/SNYK-JS-NODESASS-541000] in node-sass@4.14.1
+    introduced by node-sass@4.14.1
+  No upgrade or patch available
+  ✗ Out-of-bounds Read [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-NODESASS-541002] in node-sass@4.14.1
+    introduced by node-sass@4.14.1
+  No upgrade or patch available
+  ✗ Prototype Pollution [High Severity][https://security.snyk.io/vuln/SNYK-JS-PACEJS-8136829] in pace-js@1.0.2
+    introduced by pace-js@1.0.2
+  No upgrade or patch available
+  ✗ Directory Traversal [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-TAR-15032660] in tar@2.2.2
+    introduced by node-sass@4.14.1 > node-gyp@3.8.0 > tar@2.2.2
+  This issue was fixed in versions: 7.5.3
+  ✗ Improper Handling of Unicode Encoding [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-TAR-15038581] in tar@2.2.2
+    introduced by node-sass@4.14.1 > node-gyp@3.8.0 > tar@2.2.2
+  This issue was fixed in versions: 7.5.4
+  ✗ Directory Traversal [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-TAR-15127355] in tar@2.2.2
+    introduced by node-sass@4.14.1 > node-gyp@3.8.0 > tar@2.2.2
+  This issue was fixed in versions: 7.5.7
+  ✗ Directory Traversal [High Severity][https://security.snyk.io/vuln/SNYK-JS-TAR-15307072] in tar@2.2.2
+    introduced by node-sass@4.14.1 > node-gyp@3.8.0 > tar@2.2.2
+  This issue was fixed in versions: 7.5.8
+  ✗ Arbitrary File Overwrite [High Severity][https://security.snyk.io/vuln/SNYK-JS-TAR-1536528] in tar@2.2.2
+    introduced by node-sass@4.14.1 > node-gyp@3.8.0 > tar@2.2.2
+  This issue was fixed in versions: 3.2.3, 4.4.15, 5.0.7, 6.1.2
+  ✗ Arbitrary File Overwrite [High Severity][https://security.snyk.io/vuln/SNYK-JS-TAR-1536531] in tar@2.2.2
+    introduced by node-sass@4.14.1 > node-gyp@3.8.0 > tar@2.2.2
+  This issue was fixed in versions: 3.2.2, 4.4.14, 5.0.6, 6.1.1
+  ✗ Regular Expression Denial of Service (ReDoS) [Low Severity][https://security.snyk.io/vuln/SNYK-JS-TAR-1536758] in tar@2.2.2
+    introduced by node-sass@4.14.1 > node-gyp@3.8.0 > tar@2.2.2
+  This issue was fixed in versions: 6.1.4, 5.0.8, 4.4.16
+  ✗ Symlink Attack [High Severity][https://security.snyk.io/vuln/SNYK-JS-TAR-15416075] in tar@2.2.2
+    introduced by node-sass@4.14.1 > node-gyp@3.8.0 > tar@2.2.2
+  This issue was fixed in versions: 7.5.10
+  ✗ Symlink Attack [High Severity][https://security.snyk.io/vuln/SNYK-JS-TAR-15456201] in tar@2.2.2
+    introduced by node-sass@4.14.1 > node-gyp@3.8.0 > tar@2.2.2
+  This issue was fixed in versions: 7.5.11
+  ✗ Arbitrary File Write [High Severity][https://security.snyk.io/vuln/SNYK-JS-TAR-1579147] in tar@2.2.2
+    introduced by node-sass@4.14.1 > node-gyp@3.8.0 > tar@2.2.2
+  This issue was fixed in versions: 6.1.7, 5.0.8, 4.4.16
+  ✗ Arbitrary File Write [High Severity][https://security.snyk.io/vuln/SNYK-JS-TAR-1579152] in tar@2.2.2
+    introduced by node-sass@4.14.1 > node-gyp@3.8.0 > tar@2.2.2
+  This issue was fixed in versions: 6.1.9, 5.0.10, 4.4.18
+  ✗ Arbitrary File Write [High Severity][https://security.snyk.io/vuln/SNYK-JS-TAR-1579155] in tar@2.2.2
+    introduced by node-sass@4.14.1 > node-gyp@3.8.0 > tar@2.2.2
+  This issue was fixed in versions: 6.1.9, 5.0.10, 4.4.18
+  ✗ Uncontrolled Resource Consumption ('Resource Exhaustion') [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-TAR-6476909] in tar@2.2.2
+    introduced by node-sass@4.14.1 > node-gyp@3.8.0 > tar@2.2.2
+  This issue was fixed in versions: 6.2.1
+
+
+
+Organization:      arianfarzad
+Package manager:   npm
+Target file:       package-lock.json
+Project name:      ngx-admin
+Open source:       no
+Project path:      /app
+Licenses:          enabled
+
+
+
+ ERROR   Forbidden (SNYK-CLI-0000)
+         The encountered error only provides basic information, please take a look at   
+         the given details. If they do not help to resolve the issue, consider          
+         debugging or consulting support.                                               
+                                                                                        
+           Forbidden                                                                    
+
+Status:  403 Forbidden 
+Docs:    https://docs.snyk.io/scan-with-snyk/error-catalog#snyk-cli-0000 
+                                                                         
+ID:      urn:snyk:interaction:55517de5-56a6-43e9-8b8d-a9f2568107a3 

@@ -1,0 +1,93 @@
+
+> nice-napi@1.0.2 install /app/node_modules/nice-napi
+> node-gyp-build
+
+
+> husky@0.13.3 install /app/node_modules/husky
+> node ./bin/install.js
+
+husky
+setting up hooks
+done
+
+
+> node-sass@4.14.1 install /app/node_modules/node-sass
+> node scripts/install.js
+
+Downloading binary from https://github.com/sass/node-sass/releases/download/v4.14.1/linux-x64-83_binding.node
+Download complete
+Binary saved to /app/node_modules/node-sass/vendor/linux-x64-83/binding.node
+Caching binary to /root/.npm/node-sass/4.14.1/linux-x64-83_binding.node
+
+> esbuild@0.17.8 postinstall /app/node_modules/@angular-devkit/build-angular/node_modules/esbuild
+> node install.js
+
+
+> @fortawesome/fontawesome-free@5.15.4 postinstall /app/node_modules/@fortawesome/fontawesome-free
+> node attribution.js
+
+Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
+License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+
+
+> node-sass@4.14.1 postinstall /app/node_modules/node-sass
+> node scripts/build.js
+
+Binary found at /app/node_modules/node-sass/vendor/linux-x64-83/binding.node
+Testing binary
+Binary is fine
+npm WARN lifecycle ngx-admin@11.0.0~postinstall: cannot run in wd ngx-admin@11.0.0 ngcc --properties es2015 es5 browser module main --first-only --create-ivy-entry-points --tsconfig "./src/tsconfig.app.json" (wd=/app)
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules/@compodoc/compodoc/node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.3.2 (node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/win32-x64@0.17.8 (node_modules/@esbuild/win32-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/win32-x64@0.17.8: wanted {"os":"win32","arch":"x64"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/win32-ia32@0.17.8 (node_modules/@esbuild/win32-ia32):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/win32-ia32@0.17.8: wanted {"os":"win32","arch":"ia32"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/win32-arm64@0.17.8 (node_modules/@esbuild/win32-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/win32-arm64@0.17.8: wanted {"os":"win32","arch":"arm64"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/sunos-x64@0.17.8 (node_modules/@esbuild/sunos-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/sunos-x64@0.17.8: wanted {"os":"sunos","arch":"x64"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/openbsd-x64@0.17.8 (node_modules/@esbuild/openbsd-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/openbsd-x64@0.17.8: wanted {"os":"openbsd","arch":"x64"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/netbsd-x64@0.17.8 (node_modules/@esbuild/netbsd-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/netbsd-x64@0.17.8: wanted {"os":"netbsd","arch":"x64"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/linux-riscv64@0.17.8 (node_modules/@esbuild/linux-riscv64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/linux-riscv64@0.17.8: wanted {"os":"linux","arch":"riscv64"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/linux-s390x@0.17.8 (node_modules/@esbuild/linux-s390x):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/linux-s390x@0.17.8: wanted {"os":"linux","arch":"s390x"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/linux-ppc64@0.17.8 (node_modules/@esbuild/linux-ppc64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/linux-ppc64@0.17.8: wanted {"os":"linux","arch":"ppc64"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/linux-mips64el@0.17.8 (node_modules/@esbuild/linux-mips64el):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/linux-mips64el@0.17.8: wanted {"os":"linux","arch":"mips64el"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/linux-loong64@0.17.8 (node_modules/@esbuild/linux-loong64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/linux-loong64@0.17.8: wanted {"os":"linux","arch":"loong64"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/linux-ia32@0.17.8 (node_modules/@esbuild/linux-ia32):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/linux-ia32@0.17.8: wanted {"os":"linux","arch":"ia32"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/linux-arm64@0.17.8 (node_modules/@esbuild/linux-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/linux-arm64@0.17.8: wanted {"os":"linux","arch":"arm64"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/linux-arm@0.17.8 (node_modules/@esbuild/linux-arm):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/linux-arm@0.17.8: wanted {"os":"linux","arch":"arm"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/freebsd-x64@0.17.8 (node_modules/@esbuild/freebsd-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/freebsd-x64@0.17.8: wanted {"os":"freebsd","arch":"x64"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/freebsd-arm64@0.17.8 (node_modules/@esbuild/freebsd-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/freebsd-arm64@0.17.8: wanted {"os":"freebsd","arch":"arm64"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/darwin-x64@0.17.8 (node_modules/@esbuild/darwin-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/darwin-x64@0.17.8: wanted {"os":"darwin","arch":"x64"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/darwin-arm64@0.17.8 (node_modules/@esbuild/darwin-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/darwin-arm64@0.17.8: wanted {"os":"darwin","arch":"arm64"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/android-x64@0.17.8 (node_modules/@esbuild/android-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/android-x64@0.17.8: wanted {"os":"android","arch":"x64"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/android-arm@0.17.8 (node_modules/@esbuild/android-arm):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/android-arm@0.17.8: wanted {"os":"android","arch":"arm"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/android-arm64@0.17.8 (node_modules/@esbuild/android-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/android-arm64@0.17.8: wanted {"os":"android","arch":"arm64"} (current: {"os":"linux","arch":"x64"})
+
+added 2265 packages from 1677 contributors and audited 2295 packages in 51.281s
+
+206 packages are looking for funding
+  run `npm fund` for details
+
+found 382 vulnerabilities (44 low, 119 moderate, 213 high, 6 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details
