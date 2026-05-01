@@ -1,0 +1,122 @@
+chore(deps-dev): bump @types/jasminewd2 from 2.0.3 to 2.0.13 dependencies javascript
+#47 opened 54 minutes ago by dependabot Bot
+
+chore(deps-dev): bump @fortawesome/fontawesome-free from 5.15.4 to 7.2.0 dependencies javascript
+#46 opened 1 hour ago by dependabot Bot
+
+chore(deps-dev): bump @types/d3-color from 1.0.5 to 3.1.3 dependencies javascript
+#45 opened 1 hour ago by dependabot Bot
+
+chore(deps-dev): bump karma from 6.3.19 to 6.4.4 dependencies javascript
+#44 opened 1 hour ago by dependabot Bot
+
+chore(deps-dev): bump @angular-eslint/eslint-plugin-template from 15.2.1 to 17.5.3 dependencies javascript
+#43 opened 1 hour ago by dependabot Bot
+
+chore(deps): bump normalize.css from 6.0.0 to 8.0.1 dependencies javascript
+#42 opened 1 hour ago by dependabot Bot
+
+chore(deps): bump roboto-fontface from 0.8.0 to 0.10.0 dependencies javascript
+#41 opened 1 hour ago by dependabot Bot
+
+chore(deps-dev): bump karma-cli from 1.0.1 to 2.0.0 dependencies javascript
+#40 opened 1 hour ago by dependabot Bot
+
+chore(deps-dev): bump husky from 0.13.3 to 9.1.7 dependencies javascript
+#39 opened 1 hour ago by dependabot Bot
+
+chore(deps-dev): bump karma-chrome-launcher from 3.1.1 to 3.2.0 dependencies javascript
+#38 opened 1 hour ago by dependabot Bot
+
+chore(deps-dev): bump @angular/cli from 15.2.10 to 15.2.11 dependencies javascript
+#37 opened 1 hour ago by dependabot Bot
+
+chore(deps-dev): bump @typescript-eslint/parser from 5.54.1 to 5.62.0 dependencies javascript
+#36 opened 1 hour ago by dependabot Bot
+
+chore(deps-dev): bump karma-jasmine from 4.0.2 to 5.1.0 dependencies javascript
+#35 opened 1 hour ago by dependabot Bot
+
+chore(deps-dev): bump @compodoc/compodoc from 1.0.1 to 1.2.1 dependencies javascript
+#34 opened 1 hour ago by dependabot Bot
+
+chore(deps): bump node-sass from 4.14.1 to 9.0.0 dependencies javascript
+#33 opened 1 hour ago by dependabot Bot
+
+chore(deps): bump @swimlane/ngx-charts from 14.0.0 to 20.5.0 dependencies javascript
+#32 opened 1 hour ago by dependabot Bot
+
+chore(deps): bump pace-js from 1.0.2 to 1.2.4 dependencies javascript
+#31 opened 1 hour ago by dependabot Bot
+
+chore(deps-dev): bump @angular-eslint/eslint-plugin from 15.2.1 to 17.5.3 dependencies javascript
+#30 opened 1 hour ago by dependabot Bot
+
+chore(deps-dev): bump @angular-eslint/template-parser from 15.2.1 to 17.5.3 dependencies javascript
+#29 opened 1 hour ago by dependabot Bot
+
+chore(deps-dev): bump @types/node from 12.20.51 to 25.6.0 dependencies javascript
+#28 opened 1 hour ago by dependabot Bot
+
+chore(deps): bump ckeditor from 4.7.3 to 4.12.1 dependencies javascript
+#27 opened 1 hour ago by dependabot Bot
+
+chore(deps): bump core-js from 2.5.1 to 3.49.0 dependencies javascript
+#26 opened 1 hour ago by dependabot Bot
+
+chore(deps-dev): bump stylelint from 7.13.0 to 17.9.1 dependencies javascript
+#25 opened 1 hour ago by dependabot Bot
+
+chore(deps): bump rxjs from 6.6.2 to 6.6.7 dependencies javascript
+#24 opened 1 hour ago by dependabot Bot
+
+chore(deps): bump chart.js from 2.7.1 to 4.5.1 dependencies javascript
+#23 opened 1 hour ago by dependabot Bot
+
+chore(deps-dev): bump @angular-eslint/schematics from 15.2.1 to 21.0.1 dependencies javascript
+#22 opened 1 hour ago by dependabot Bot
+
+chore(deps-dev): bump npm-run-all from 4.0.2 to 4.1.5 dependencies javascript
+#21 opened 1 hour ago by dependabot Bot
+
+chore(deps): bump tinymce from 4.5.7 to 8.5.0 dependencies javascript
+#20 opened 1 hour ago by dependabot Bot
+
+chore(deps): bump echarts from 4.9.0 to 6.0.0 dependencies javascript
+#19 opened 1 hour ago by dependabot Bot
+
+chore(deps-dev): bump @angular/language-service from 15.2.10 to 21.2.11 dependencies javascript
+#18 opened 1 hour ago by dependabot Bot
+
+chore(deps): bump angular2-chartjs from 0.4.1 to 0.5.1 dependencies javascript
+#17 opened 1 hour ago by dependabot Bot
+
+chore(deps): bump leaflet and @types/leaflet dependencies javascript
+#16 opened 1 hour ago by dependabot Bot
+
+chore(deps): bump @asymmetrik/ngx-leaflet from 3.0.1 to 15.0.1 dependencies javascript
+#15 opened 1 hour ago by dependabot Bot
+
+chore(deps-dev): bump jasmine-spec-reporter from 5.0.2 to 7.0.0 dependencies javascript
+#14 opened 1 hour ago by dependabot Bot
+
+chore(deps-dev): bump conventional-changelog-cli from 1.3.4 to 5.0.0 dependencies javascript
+#13 opened 1 hour ago by dependabot Bot
+
+chore(deps-dev): bump @angular-eslint/builder from 15.2.1 to 17.5.3 dependencies javascript
+#12 opened 1 hour ago by dependabot Bot
+
+chore(deps-dev): bump jasmine-core from 3.6.0 to 6.2.0 dependencies javascript
+#11 opened 1 hour ago by dependabot Bot
+
+chore(deps): bump zone.js from 0.11.5 to 0.13.3 dependencies javascript
+#10 opened 1 hour ago by dependabot Bot
+
+chore(deps): bump typeface-exo from 0.0.22 to 1.1.13 dependencies javascript
+#9 opened 1 hour ago by dependabot Bot
+
+chore(deps): bump rxjs-compat from 6.3.0 to 6.6.7 dependencies javascript
+#8 opened 1 hour ago by dependabot Bot
+
+chore(deps-dev): bump rimraf from 2.6.1 to 6.1.3 dependencies javascript
+#7 opened 1 hour ago by dependabot Bot
