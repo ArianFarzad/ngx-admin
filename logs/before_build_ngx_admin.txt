@@ -44,7 +44,10 @@ src_app_pages_ui-features_ui-features_module_ts.js           | ui-features-ui-fe
 src_app_pages_editors_editors_module_ts.js                   | editors-editors-module                   | 838.26 kB |
 src_app_pages_forms_forms_module_ts.js                       | forms-forms-module                       | 648.25 kB |
 
-Build at: 2026-03-22T16:46:53.832Z - Hash: edc997c5fc15f1c4 - Time: 65596ms
+Build at: 2026-05-01T23:21:07.890Z - Hash: 4daca40c0b4f360a - Time: 18566ms
+
+Warning: /app/node_modules/@asymmetrik/ngx-leaflet/__ivy_ngcc__/dist/leaflet/core/leaflet.directive.js depends on 'leaflet'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
 
 Warning: /app/node_modules/@nebular/eva-icons/fesm2020/nebular-eva-icons.mjs depends on 'eva-icons'. CommonJS or AMD dependencies can cause optimization bailouts.
 For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
